@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <input type="text" id="text1" placeholder="Enter value">
+    <textarea name="Thakur" id="Singh" cols="30" rows="10"></textarea>
+    <button onclick="oddeven()">check</button>
+    <button onclick="again()">Againcheck</button>
+    <button onclick="doagain()">OnceAgaincheck</button>
+</body>
+<script>
+     /*function oddeven()
+     {
+     //var a, n='y';
+     //while(n=='y')
+     
+     a=document.getElementById("text1").value;
+     
+    if(a%2==0)
+    
+        document.getElementById("Singh").innerHTML="Even Number";
+    
+    else
+    
+    document.getElementById("Singh").innerHTML="Odd Number";
+    //alert("continue");
+}*/
+/*function again()
+{
+    var n, a='y';
+    while (a=='y') 
+    {
+        a=Number(prompt("Enter number"));
+       if (a%2==0) {
+           alert("even no");
+       } 
+       else
+       alert("odd no");
+       a=prompt("Do you want to continue");
+     }
+}*/
+/*function oddeven()
+     {
+     //var a, n='y';
+     //while(n=='y')
+     
+     a=document.getElementById("text1").value;
+     
+    if(a%2==0)
+    
+        document.getElementById("Singh").innerHTML="Even Number";
+    
+    else
+    
+    document.getElementById("Singh").innerHTML="Odd Number";
+    //alert("continue");
+}*/
+function doagain()
+{
+    var n, a='y';
+    do
+    
+    {
+        a=Number(prompt("Enter number"));
+       if (a%2==0) {
+           alert("even no");
+       } 
+       else
+       alert("odd no");
+       a=prompt("Do you want to continue");
+
+     }
+     while (a=='y') 
+}
+</script>
+</html>
